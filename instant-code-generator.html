@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .boxx {
+        display: flex;
+      }
+      #nav {
+        height: 530px;
+        width: 300px;
+        background-color: black;
+      }
+      #content {
+        height: 530px;
+        width: 900px;
+        background-color: ghostwhite;
+      }
+      #select {
+        height: 40px;
+        width: 200px;
+        background-color: darkgrey;
+        border-radius: 20px;
+        align-self: center;
+      }
+      #option {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      #content-1 {
+        height: 80%;
+        width: 100%;
+      }
+      #queries {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      #textt {
+        width: 1000px;
+        height: 60px;
+        /* border-radius: 10px; */
+      }
+      #addbttn {
+        height: 60px;
+        background-color: rgb(160, 175, 145);
+        border-radius: 10px;
+      }
+      #userid{
+        margin-top: 490px;
+        text-align: center;
+      }
+      #login{
+        width: 150px;
+        height: 30px;
+        border-radius: 15px;
+        background-color: darkslategray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boxx">
+      <div id="nav">
+        <div id="history"></div>
+        <div id="userid">
+          <button id="login">login</button>
+        </div>
+      </div>
+
+      <div id="content">
+        <div id="option">
+          <select name="select-language" id="select">
+            <option value="select-language">select-language</option>
+            <option value="c">c</option>
+            <option value="c++">c++</option>
+            <option value="java">java</option>
+            <option value="python">python</option>
+          </select>
+        </div>
+
+        <div id="content-1"></div>
+        <div id="queries">
+          <input id="textt" type="text" placeholder="Send Problem" />
+          <button id="addbttn">Send</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
